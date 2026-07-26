@@ -1,0 +1,30 @@
+{
+    "features": [
+        "OOSR_Pre0Primary_Age_Male",
+        "OOSR_Pre0Primary_Age_Female",
+        "OOSR_Primary_Age_Male",
+        "OOSR_Primary_Age_Female",
+        "OOSR_Lower_Secondary_Age_Male",
+        "OOSR_Lower_Secondary_Age_Female",
+        "OOSR_Upper_Secondary_Age_Male",
+        "OOSR_Upper_Secondary_Age_Female",
+        "Completion_Rate_Primary_Male",
+        "Completion_Rate_Primary_Female",
+        "Completion_Rate_Lower_Secondary_Male",
+        "Completion_Rate_Lower_Secondary_Female",
+        "Completion_Rate_Upper_Secondary_Male",
+        "Completion_Rate_Upper_Secondary_Female",
+        "Grade_2_3_Proficiency_Reading",
+        "Grade_2_3_Proficiency_Math",
+        "Primary_End_Proficiency_Reading",
+        "Primary_End_Proficiency_Math",
+        "Lower_Secondary_End_Proficiency_Reading",
+        "Lower_Secondary_End_Proficiency_Math",
+        "Youth_15_24_Literacy_Rate_Male",
+        "Youth_15_24_Literacy_Rate_Female",
+        "Birth_Rate",
+        "Gross_Primary_Education_Enrollment",
+        "Unemployment_Rate"
+    ],
+    "target": "Gross_Tertiary_Education_Enrollment"
+}
