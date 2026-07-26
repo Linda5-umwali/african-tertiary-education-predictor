@@ -9,7 +9,7 @@ pipeline before ever reaching university, in African contexts.
 This will help in the research about youth unemployment in africa.
 
 - **Live API (Swagger UI):** https://african-tertiary-education-predictor.onrender.com/docs
-- **Demo video:** [https://youtu.be/x6iBmbvx2HQ]
+- **Demo video:** [https://youtu.be/jbW2H9bkr4E]
 
 ### Repo structure
 ```
