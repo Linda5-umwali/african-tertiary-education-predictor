@@ -8,10 +8,10 @@ literacy, birth rate, unemployment), scoped to **African countries**.
 pipeline before ever reaching university, in African contexts. 
 This will help in the research about youth unemployment in africa.
 
-**Live API (Swagger UI):** https://african-tertiary-education-predictor.onrender.com/docs
-**Demo video:** [link here]
+- **Live API (Swagger UI):** https://african-tertiary-education-predictor.onrender.com/docs
+- **Demo video:** [https://youtu.be/x6iBmbvx2HQ]
 
-## Repo structure
+### Repo structure
 ```
 summative/
 ├── linear_regression/
@@ -29,7 +29,7 @@ summative/
 pyproject.toml
 ```
 
-## Dataset & scope
+### Dataset & scope
 - Source: Global_Education.csv (202 countries)
 - Filtered to the **54 African countries** present in the
   data before any cleaning or modeling. Global rows were never used
@@ -37,7 +37,7 @@ pyproject.toml
 - There was no dropping rows with missing/zero target, **54 African
   countries** remain in the final training set
 
-## Task 1 — Regression (see `summative/linear_regression/multivariate.ipynb`)
+### Task 1 — Regression (see `summative/linear_regression/multivariate.ipynb`)
 - Target: `Gross_Tertiary_Education_Enrollment`
 - Cleaned data, engineered features, standardized where applicable
 - Compared multiple regression algorithms (Linear Regression, Ridge,
@@ -45,18 +45,18 @@ pyproject.toml
   implementation with train/test loss curves
 - Best model saved to `best_model.pkl`
 
-## Task 2 — API (see `summative/API/`)
+### Task 2 — API (see `summative/API/`)
 - `POST /predict` Pydantic-validated inputs (typed, range-constrained)
 - `POST /retrain` upload a CSV to retrain and hot-swap the model
 - CORS configured for public, credential-free access (GET/POST only)
 - Deployed on Render; Swagger UI publicly available at `/docs`
 
-## Task 3 — Flutter app (see `summative/FlutterApp/`)
+### Task 3 — Flutter app (see `summative/FlutterApp/`)
 - Single page: one text field per model feature, a **Predict** button,
   and a result/error display area
 - Calls the deployed Render API's `/predict` endpoint directly
 
-## Run locally
+### Run locally
 
 **API:**
 ```bash
