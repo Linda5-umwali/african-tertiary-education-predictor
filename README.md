@@ -37,7 +37,7 @@ pyproject.toml
 - There was no dropping rows with missing/zero target, **54 African
   countries** remain in the final training set
 
-### Task 1 — Regression (see `summative/linear_regression/multivariate.ipynb`)
+### Task 1: Regression (see `summative/linear_regression/multivariate.ipynb`)
 - Target: `Gross_Tertiary_Education_Enrollment`
 - Cleaned data, engineered features, standardized where applicable
 - Compared multiple regression algorithms (Linear Regression, Ridge,
@@ -45,13 +45,13 @@ pyproject.toml
   implementation with train/test loss curves
 - Best model saved to `best_model.pkl`
 
-### Task 2 — API (see `summative/API/`)
+### Task 2: API (see `summative/API/`)
 - `POST /predict` Pydantic-validated inputs (typed, range-constrained)
 - `POST /retrain` upload a CSV to retrain and hot-swap the model
 - CORS configured for public, credential-free access (GET/POST only)
 - Deployed on Render; Swagger UI publicly available at `/docs`
 
-### Task 3 — Flutter app (see `summative/FlutterApp/`)
+### Task 3: Flutter app (see `summative/FlutterApp/`)
 - Single page: one text field per model feature, a **Predict** button,
   and a result/error display area
 - Calls the deployed Render API's `/predict` endpoint directly
